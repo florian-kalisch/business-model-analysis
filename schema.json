@@ -1,0 +1,87 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "companyName",
+      "stockSymbol",
+      "sector"
+    ],
+    "properties": {
+      "companyName": {
+        "type": "string"
+      },
+      "stockSymbol": {
+        "pattern": "(none)|(NYSE|NASDAQ|LSE|JPX|SSE|HKEX|Euronext|SZSE|TSX|BSE|NSE|SIX|ASX|KRX|OMX|JSE|BME|TWSE|Bovespa|FSX|MYX|JSE|BVS|BVC|BVL|BMV|BCBA|CSE|CSE|DSE|HOSE|IDX|NZX|PSE|SGX|SET|ADX|ASE|BIST|BC|BVB|BSE|DFM|EGX|ISE|KASE|LuxSE|MOEX|NSE|OSE|PEX|QE|Tadawul|SEM|TSE|TASE|UX|GPW|VSE|ZSE|MSE|BDE|BSX|HNX|BHB|EUREX|PSX|NSE|OMXH|OMXR|Euronext|BX|MTA|OMXC|OTC|AMEX|AIM):[A-Z]+?"
+      },
+      "sector": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+          "type": "string"
+        }
+      },
+      "patterns": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+          "type": "object",
+          "required": [
+            "name"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "pattern": "(ADD-ON|AFFILIATION|AIKIDO|AUCTION|BARTER|CASH-MACHINE|CROSS-SELLING|CROWDFUNDING|CROWDSOURCING|CUSTOMER-LOYALTY|DIGITALIZATION|DIRECT-SELLING|E-COMMERCE|EXPERIENCE-SELLING|FLATRATE|FRACTIONALIZED-OWNERSHIP|FRANCHISING|FREEMIUM|FROM-PUSH-TO-PULL|GUARANTEED-AVAILABILITY|HIDDEN-REVENUE|INGREDIENT-BRANDING|INTEGRATOR|LAYER-PLAYER|LEVERAGE-CUSTOMER-DATA|LICENSE|LOCK-IN|LONG-TAIL|MAKE-MORE-OF-IT|MASS-CUSTOMIZATION|NO-FRILLS|OPEN-BUSINESS-MODEL|OPEN-SOURCE|ORCHESTRATION|PAY-PER-USE|PAY-WHAT-YOU-WANT|PEER-TO-PEER|PERFORMANCE-BASED-CONTRACTING|RAZOR-AND-BLADE|RENT-INSTEAD-OF-BUY|REVENUE-SHARING|REVERSE-ENGINEERING|REVERSE-INNOVATION|ROBIN-HOOD|SELF-SERVICE|SHOP-IN-SHOP|SOLUTION-PROVIDER|SUBSCRIPTION|SUPERMARKET|TARGET-THE-POOR|TRASH-TO-CASH|TWO-SIDED-MARKET|ULTIMATE-LUXURY|USER-DESIGNED|WHITE-LABEL|SENSOR-AS-A-SERVICE|VIRTUALIZATION|OBJECT-SELF-SERVICE|OBJECT-AS-POINT-OF-SALE|PROSUMER)"
+            },
+            "description": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "products": {
+        "type": "array",
+        "minItems": 0,
+        "uniqueItems": true,
+        "items": {
+          "type": "object",
+          "required": [
+            "name",
+            "sector"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "sector": {
+              "type": "string"
+            },
+            "patterns": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "object",
+                "required": [
+                  "name"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "pattern": "(ADD-ON|AFFILIATION|AIKIDO|AUCTION|BARTER|CASH-MACHINE|CROSS-SELLING|CROWDFUNDING|CROWDSOURCING|CUSTOMER-LOYALTY|DIGITALIZATION|DIRECT-SELLING|E-COMMERCE|EXPERIENCE-SELLING|FLATRATE|FRACTIONALIZED-OWNERSHIP|FRANCHISING|FREEMIUM|FROM-PUSH-TO-PULL|GUARANTEED-AVAILABILITY|HIDDEN-REVENUE|INGREDIENT-BRANDING|INTEGRATOR|LAYER-PLAYER|LEVERAGE-CUSTOMER-DATA|LICENSE|LOCK-IN|LONG-TAIL|MAKE-MORE-OF-IT|MASS-CUSTOMIZATION|NO-FRILLS|OPEN-BUSINESS-MODEL|OPEN-SOURCE|ORCHESTRATION|PAY-PER-USE|PAY-WHAT-YOU-WANT|PEER-TO-PEER|PERFORMANCE-BASED-CONTRACTING|RAZOR-AND-BLADE|RENT-INSTEAD-OF-BUY|REVENUE-SHARING|REVERSE-ENGINEERING|REVERSE-INNOVATION|ROBIN-HOOD|SELF-SERVICE|SHOP-IN-SHOP|SOLUTION-PROVIDER|SUBSCRIPTION|SUPERMARKET|TARGET-THE-POOR|TRASH-TO-CASH|TWO-SIDED-MARKET|ULTIMATE-LUXURY|USER-DESIGNED|WHITE-LABEL|SENSOR-AS-A-SERVICE|VIRTUALIZATION|OBJECT-SELF-SERVICE|OBJECT-AS-POINT-OF-SALE|PROSUMER)"
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
