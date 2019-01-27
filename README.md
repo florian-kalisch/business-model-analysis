@@ -7,7 +7,7 @@ I am looking forward to community support. Forks and pull requests are very welc
 
 **Notes:**
 In the file *schema.json* you will find the JSON-Schema in which the JSON data should be in.
-You can validate you input by using this [Link](https://www.npoint.io/docs/fc2d4ea410827c9f9f59). Feel free to suggest some changes.
+You can validate you input by using this [Link](https://www.npoint.io/docs/fc2d4ea410827c9f9f59). Feel free to suggest some changes. Try to stick to the Wikipedia Industries for the sector field. For example: [Industries](https://en.wikipedia.org/wiki/Category:Industries) -> [Service\ industries](https://en.wikipedia.org/wiki/Category:Service_industries) -> [E-commerce](https://en.wikipedia.org/wiki/Category:E-commerce)
 
 **One imaginary example:**
 ```json
