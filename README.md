@@ -7,7 +7,7 @@ I am looking forward to community support. Forks and pull requests are very welc
 
 **Notes:**
 In the file *schema.json* you will find the JSON-Schema in which the JSON data should be in.
-You can validate you input by using this [Link](https://www.npoint.io/docs/fc2d4ea410827c9f9f59).
+You can validate you input by using this [Link](https://www.npoint.io/docs/fc2d4ea410827c9f9f59). Feel free to suggest some changes.
 
 **One imaginary example:**
 ```json
@@ -31,7 +31,7 @@ You can validate you input by using this [Link](https://www.npoint.io/docs/fc2d4
         "patterns": [
           {
             "name": "OBJECT-AS-POINT-OF-SALE",
-            "description": "Something like a Buy Button :D"
+            "description": "Maybe something like a Buy-Button :D"
           }
         ]
       }
