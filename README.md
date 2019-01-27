@@ -26,7 +26,7 @@ You can validate you input by using this [Link](https://www.npoint.io/docs/fc2d4
     ],
     "products": [
       {
-        "name": "AWS",
+        "name": "SomeProduct",
         "sector": "E-COMMERCE",
         "patterns": [
           {
