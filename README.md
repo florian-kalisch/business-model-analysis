@@ -1,5 +1,5 @@
 # Business Model Analysis
-This project aims to explore known or lesser-known companies for their underlying business model patterns. To do this, the [BMI Lab's Business Model Innovation Patterns] (http://bit.ly/bmi-lab-patterns) are used to establish a common reference for the patterns. This allows different companies to be compared.
+This project aims to explore known or lesser-known companies for their underlying business model patterns. To do this, the [BMI Lab's Business Model Innovation Patterns](http://bit.ly/bmi-lab-patterns) are used to establish a common reference for the patterns. This allows different companies to be compared.
 
 The data format used is JSON (JSON schema validation exists) so that the results can be further processed by machine (thinking of some nice graphic visualisations or some data science projects).
 
