@@ -1,7 +1,9 @@
 # Business Model Analysis
 This project aims to explore known or lesser-known companies for their underlying business model patterns. To do this, the [BMI Lab's Business Model Innovation Patterns] (http://bit.ly/bmi-lab-patterns) are used to establish a common reference for the patterns. This allows different companies to be compared.
 
-The data format used is JSON (JSON schema validation exists) so that the results can be further processed by machine (thinking of some nice graphic visualisations or some machine learning projects).
+The data format used is JSON (JSON schema validation exists) so that the results can be further processed by machine (thinking of some nice graphic visualisations or some data science projects).
+
+For visual editing you can use this great tool [json editor](https://github.com/jdorn/json-editor)
 
 I am looking forward to community support. Forks and pull requests are very welcome.
 
@@ -15,6 +17,7 @@ You can validate you input by using this [Link](https://www.npoint.io/docs/fc2d4
   {
     "companyName": "Example Company",
     "stockSymbol": "NASDAQ:EXAMPLE",
+    "url": "https://example.org/",
     "sector": [
       "E-commerce"
     ],
