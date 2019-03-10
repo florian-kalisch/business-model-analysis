@@ -1,1 +1,49 @@
 
+[
+  {
+    "companyName": "Airbnb",
+    "stockSymbol": null,
+    "url": "https://airbnb.com/",
+    "sector": [
+      "Lodging"
+    ],
+    "patterns": [
+      {
+        "name": "PEER-TO-PEER",
+        "description": ""
+      },
+      {
+        "name": "TWO-SIDED-MARKET",
+        "description": ""
+      },
+      {
+        "name": "AFFILIATION",
+        "description": "They do have an affiliate program."
+      }
+    ],
+    "products": []
+  },
+  {
+    "companyName": "Uber",
+    "stockSymbol": null,
+    "url": "https://www.uber.com/",
+    "sector": [
+      "Transport"
+    ],
+    "patterns": [
+      {
+        "name": "PEER-TO-PEER",
+        "description": ""
+      },
+      {
+        "name": "TWO-SIDED-MARKET",
+        "description": ""
+      },
+      {
+        "name": "AFFILIATION",
+        "description": "They do have an affiliate program."
+      }
+    ],
+    "products": []
+  }
+]
